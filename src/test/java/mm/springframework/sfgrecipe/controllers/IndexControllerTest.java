@@ -2,7 +2,7 @@ package mm.springframework.sfgrecipe.controllers;
 
 import mm.springframework.sfgrecipe.domain.Recipe;
 import mm.springframework.sfgrecipe.services.RecipeService;
-import org.aspectj.lang.annotation.Before;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.ArgumentCaptor;
 import org.mockito.Mock;
@@ -20,9 +20,6 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.view;
 
-/**
- * Created by jt on 6/17/17.
- */
 public class IndexControllerTest {
 
     @Mock
@@ -33,7 +30,7 @@ public class IndexControllerTest {
 
     IndexController controller;
 
-    @Before("")
+    @BeforeEach
     public void setUp() throws Exception {
         MockitoAnnotations.initMocks(this);
 

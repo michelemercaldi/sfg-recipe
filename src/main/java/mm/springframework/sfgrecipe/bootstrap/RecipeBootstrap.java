@@ -206,7 +206,6 @@ public class RecipeBootstrap implements ApplicationListener<ContextRefreshedEven
         tacosRecipe.getCategories().add(mexicanCategory);
 
         recipes.add(tacosRecipe);
-
         return recipes;
     }
 }
