@@ -4,10 +4,13 @@ import mm.springframework.sfgrecipe.commands.IngredientCommand;
 import mm.springframework.sfgrecipe.domain.Ingredient;
 import mm.springframework.sfgrecipe.domain.Recipe;
 import mm.springframework.sfgrecipe.domain.UnitOfMeasure;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
+
 
 /**
  * Created by jt on 6/21/17.

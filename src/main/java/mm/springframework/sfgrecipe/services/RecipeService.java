@@ -1,5 +1,6 @@
 package mm.springframework.sfgrecipe.services;
 
+import mm.springframework.sfgrecipe.commands.RecipeCommand;
 import mm.springframework.sfgrecipe.domain.Recipe;
 
 import java.util.Set;

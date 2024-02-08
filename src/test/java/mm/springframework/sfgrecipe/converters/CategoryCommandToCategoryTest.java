@@ -2,8 +2,11 @@ package mm.springframework.sfgrecipe.converters;
 
 import mm.springframework.sfgrecipe.commands.CategoryCommand;
 import mm.springframework.sfgrecipe.domain.Category;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
+
 
 public class CategoryCommandToCategoryTest {
 

@@ -6,8 +6,11 @@ import mm.springframework.sfgrecipe.commands.NotesCommand;
 import mm.springframework.sfgrecipe.commands.RecipeCommand;
 import mm.springframework.sfgrecipe.domain.Difficulty;
 import mm.springframework.sfgrecipe.domain.Recipe;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
+
 
 public class RecipeCommandToRecipeTest {
     public static final Long RECIPE_ID = 1L;

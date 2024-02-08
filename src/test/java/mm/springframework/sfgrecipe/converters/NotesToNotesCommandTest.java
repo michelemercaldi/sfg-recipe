@@ -2,8 +2,11 @@ package mm.springframework.sfgrecipe.converters;
 
 import mm.springframework.sfgrecipe.commands.NotesCommand;
 import mm.springframework.sfgrecipe.domain.Notes;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
+
 
 /**
  * Created by jt on 6/21/17.
